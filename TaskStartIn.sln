@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitProcesses", "WaitProces
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithems", "Algorithems\Algorithems.csproj", "{D8593A2D-6DF8-408F-9FAF-4E7961254441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPSDemo", "OOPSDemo\OOPSDemo.csproj", "{50B26006-71FF-4462-84D6-7F6990E5F0E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPSDemo", "OOPSDemo\OOPSDemo.csproj", "{50B26006-71FF-4462-84D6-7F6990E5F0E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackDemo", "StackDemo\StackDemo.csproj", "{A67F1067-B986-4770-BA58-1C1E2B96FF0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackDemo", "StackDemo\StackDemo.csproj", "{A67F1067-B986-4770-BA58-1C1E2B96FF0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiDemo", "WApiDemo\WApiDemo.csproj", "{C9AF932A-4DCA-4BF8-9AD2-E8E67F42B37E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Component", "Component", "{9AB67734-621D-4349-B412-E0A6850D91D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WApiDemo.Comp", "WApiDemo.Comp\WApiDemo.Comp.csproj", "{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +45,20 @@ Global
 		{A67F1067-B986-4770-BA58-1C1E2B96FF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A67F1067-B986-4770-BA58-1C1E2B96FF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A67F1067-B986-4770-BA58-1C1E2B96FF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9AF932A-4DCA-4BF8-9AD2-E8E67F42B37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9AF932A-4DCA-4BF8-9AD2-E8E67F42B37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9AF932A-4DCA-4BF8-9AD2-E8E67F42B37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9AF932A-4DCA-4BF8-9AD2-E8E67F42B37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A670FAA5-F79A-49F2-8CB9-022E6CCABB1F} = {9AB67734-621D-4349-B412-E0A6850D91D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9DC81018-C03D-458B-957C-065F5629910C}
